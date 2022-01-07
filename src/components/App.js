@@ -1,10 +1,15 @@
 import video from "../data/video.js";
+import Main from './Main';
 
 function App() {
-  console.log("Here's your data:", video);
 
-  return (
-    <div className="App">
+
+return <Main/>
+
+}
+   /* SEE VideoLink.jsx 
+
+      <div className="App">
       <iframe
         width="919"
         height="525"
@@ -13,8 +18,6 @@ function App() {
         allowfullscreen
         title="Thinking in React"
       />
-    </div>
-  );
-}
+    </div> */
 
 export default App;
